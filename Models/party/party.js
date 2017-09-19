@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 var Schema = mongoose.Schema
 var PartySchema = new Schema({
-    id:Number,
+    id:String,
     name:String,
     add_line1:String,
     add_line2:String,
